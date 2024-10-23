@@ -23,9 +23,9 @@ header {
   height: 5rem;
 }
 
-header .flex { 
-    display: flex;
-    align-items: center;
+header .flex {
+  display: flex;
+  align-items: center;
 }
 
 header .logo {
