@@ -23,14 +23,18 @@ header {
   height: 5rem;
 }
 
-header .flex {
+header > .flex {
   display: flex;
   align-items: center;
+}
+
+header > .flex > h2 > span {
+  color: purple;
 }
 
 header .logo {
   width: 30px;
   height: 30px;
-  background: url("./images/logo.png") center center no-repeat;
-  object-fit: fill;
+  background: url("./images/logo.png") center no-repeat;
+  object-fit: cover;
 }
