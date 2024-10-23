@@ -34,10 +34,6 @@ header > .flex > h2 > span {
 
 header .logo {
   width: 35px;
-  height: 100%;
-  background-image: url("./images/Logo.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  height: 35px;
   object-fit: cover;
 }
