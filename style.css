@@ -16,6 +16,8 @@ body {
   margin: auto;
 }
 
+/* header */
+
 header {
   display: flex;
   align-items: center;
@@ -28,12 +30,16 @@ header > .flex {
   align-items: center;
 }
 
+header .logo {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
 header > .flex > h2 > span {
   color: purple;
 }
 
-header .logo {
-  width: 55px;
-  height: 55px;
-  object-fit: cover;
+header > .flex > h2 {
+  margin-left: 0.5rem;
 }
