@@ -33,7 +33,7 @@ header > .flex > h2 > span {
 }
 
 header .logo {
-  width: 35px;
-  height: 35px;
+  width: 55px;
+  height: 55px;
   object-fit: cover;
 }
