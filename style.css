@@ -21,7 +21,11 @@ header {
   align-items: center;
   width: 100%;
   height: 5rem;
-  background-color: red;
+}
+
+header .flex { 
+    display: flex;
+    align-items: center;
 }
 
 header .logo {
