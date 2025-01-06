@@ -119,3 +119,7 @@ header > .flex > .task {
   font-size: 13px;
   text-align: right;
 }
+
+.material-icons-sharp {
+  cursor: pointer;
+}
